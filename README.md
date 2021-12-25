@@ -5,30 +5,23 @@
 
 详情可见：[详情说明](./src/vue-video-player-modify/readme.md)
 
-# 此示例运行效果
 
-![运行效果](./run-example.png)
+## 运行示例
 
-## Project setup
-```
-yarn install
-```
+```bash
+$ git clone git@github.com:pelligit/example-fix-vue-video-player.git
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+$ cd example-fix-vue-video-player && npm install
+
+$ npm run serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 此示例运行效果
 
-### Lints and fixes files
-```
-yarn lint
-```
+![项目运行效果](./run-example.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 其他说明
 
+* `vue-video-player-master.zip`是组件`vue-video-player`的源代码
+* `src/vue-video-player`目录是将源代码中的`src`目录拷贝过来，然后改名为`vue-video-player`
+* `src/vue-video-player-modify`是修改后的组件代码
